@@ -123,6 +123,8 @@ no Moose;
 
 __END__
 
+# ABSTRACT:  The AssumeRoleWebIdentity provider is used to obtain temporary credentials with an OIDC web identity token file. 
+
 =encoding UTF-8
 
 =head1 NAME
@@ -165,4 +167,16 @@ The arn of the role to be assumed. Default: $ENV{'AWS_ROLE_ARN'}
 
 The name of the session (will appear in CloudTrail logs, for example). Default: paws-session-time();
 
+=head1 LICENSE
+
+Copyright (C) Prajith P.
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
+
+=head1 AUTHOR
+
+Prajith P<lt>me@prajith.in<gt>
+
 =cut
+

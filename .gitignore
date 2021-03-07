@@ -27,3 +27,4 @@ cover_db/
 /_build_params
 
 MYMETA.*
+p5-Paws-Credential*
