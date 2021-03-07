@@ -176,7 +176,7 @@ it under the same terms as Perl itself.
 
 =head1 AUTHOR
 
-Prajith P<lt>me@prajith.in<gt>
+Prajith P
 
 =cut
 
