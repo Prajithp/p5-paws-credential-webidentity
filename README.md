@@ -2,7 +2,7 @@
 
 Paws::Credential::AssumeRoleWebIdentity
 
-# SYNOPSIS
+## SYNOPSIS
 
     use Paws::Credential::AssumeRoleWebIdentity;
 
@@ -14,7 +14,7 @@ Paws::Credential::AssumeRoleWebIdentity
         )
     });
 
-# DESCRIPTION
+## DESCRIPTION
 
 The AssumeRoleWebIdentity provider is used to obtain temporary credentials with an OIDC web identity token file. 
 
@@ -22,29 +22,29 @@ You can use this credential provider to obtain credentials when using AWS EKS an
 
 Credentials are refreshed with a re-call to STS when they before gets expired
 
-## DurationSeconds: Int (optional)
+### DurationSeconds: Int (optional)
 
 The number of seconds for which the credentials will be valid
 
-## WebIdentityTokenFile: Str (optional)
+### WebIdentityTokenFile: Str (optional)
 
 Path to web identity token file. Default: $ENV{'AWS\_WEB\_IDENTITY\_TOKEN\_FILE'}
 
-## RoleArn: Str
+### RoleArn: Str
 
 The arn of the role to be assumed. Default: $ENV{'AWS\_ROLE\_ARN'}
 
-## RoleSessionName: Str (optional) 
+### RoleSessionName: Str (optional) 
 
 The name of the session (will appear in CloudTrail logs, for example). Default: paws-session-time();
 
-# LICENSE
+## LICENSE
 
 Copyright (C) Prajith P.
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
 
-# AUTHOR
+## AUTHOR
 
 Prajith P
