@@ -41,7 +41,8 @@ has sts => (
     lazy    => 1, 
     default => sub {
         my $self = shift;
-        Paws->service('STS', 
+        Paws->service('STS',
+            credentials => Paws::Credential::None->new,
             region      => $self->sts_region
         );
     }
