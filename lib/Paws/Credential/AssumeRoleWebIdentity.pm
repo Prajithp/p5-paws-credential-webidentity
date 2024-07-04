@@ -6,7 +6,7 @@ use Paws::Credential::None;
 
 with 'Paws::Credential';
 
-our $VERSION = "0.0.3";
+our $VERSION = "1.0.0";
 
 has expiration => (
     is      => 'rw',
